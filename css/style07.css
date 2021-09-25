@@ -1,0 +1,11 @@
+body {
+    background-image: url("../image/82de9392b9b63d03f142a7ff6d378741.jpg");
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 255, 255);}
