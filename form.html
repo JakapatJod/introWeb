@@ -9,16 +9,18 @@
 <body>
     <h1> Form </h1>
     <form>
-        First name: <input type="text"> <br> 
-        <br>	Last name: <input type="text">	<br>
-        <br> Email :<input type="email"> <br>
-        <br> birth date: <input type="date"> <br>
-        <br> weight :<input type="number" value="1"> <br>
-        <br> height :<input type="number" value="1"> <br>
-        <br> Pic :<input type="file"> <br>
-        <br> Password :<input type="password"> <br>
-        <br> Gender :<input name="v"  type="radio">  Male <input name="v" type="radio"> Female <br>
-        <br> color:<input type="color">  <br>
+        First name: <input type="text" required> <br> 
+        <br>	Last name: <input type="text" required>	<br>
+        <br> <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+        <br> Email :<input type="email" required> <br>
+        <br> birth date: <input type="date" required> <br>
+        <br> weight :<input type="number" value="1" min="1" max="200" required > <br>
+        <br> height :<input type="number" value="100" min="100" max="250" required> <br>
+        <br> Pic :<input type="file"required > <br>
+        <br> Password :<input type="password"required > <br>
+        <br> Gender :<input name="v"  type="radio" required>  Male <input name="v" type="radio" required > Female <br>
+        <br> color:<input type="color" required>  <br>
         <br> Contry:<input type="checkbox"> Thailand <input type="checkbox"> Japan <input type="checkbox"> Korea <br>
         <br><input type="submit" value="ยืนยัน"> <input type="reset" value="ยกเลิก"> <br>
     </form>
