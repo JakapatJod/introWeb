@@ -1,10 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    font: 12px Bebas;
+    font: 12px Verdana;
 }
-h1{ font: bold 20px Bebas; }
-h2{ font: bold 14px Bebas; }
+h1{ font: bold 20px Verdana; }
+h2{ font: bold 14px Verdana; }
 body{
     width: 100%;
     display: -webkit-box;
@@ -28,7 +28,6 @@ nav {
 }
 nav li{
     display: inline-block;
-    
     list-style: none;
     padding: 5px;
     color: white;
@@ -61,7 +60,6 @@ article header{
     padding: 0px;
     border: none;
 }
-    
 article footer{
     text-align: right;
     padding-right: 10px;
@@ -72,4 +70,3 @@ footer{
     padding: 20px;
     font-size: 9px;
 }
-    
